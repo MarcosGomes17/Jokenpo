@@ -65,5 +65,8 @@ resetButton.addEventListener('click', () => {
         btn.classList.remove('machine-picked')
     })
 
-})
+       setTimeout(() => {
+        result.innerHTML = ''
+    }, 3000)
 
+})
