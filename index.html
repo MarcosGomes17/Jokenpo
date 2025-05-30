@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpô / By Maicaão</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Share+Tech&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+    <section>
+
+        <h1>JokenPô</h1>
+
+        <div>
+            <button class="choice" id="rock" onclick="playHuman('rock')" >&#x1F44A;</button>
+            <button class="choice" id="paper" onclick="playHuman('paper')" >&#x1f590;</button>
+            <button class="choice" id="scissors" onclick="playHuman('scissors')" >&#x270c;</button>
+        </div>
+
+        <p class="result"></p>
+
+        <p class="your-score">Sua pontuação: <span id="human-score">0</span></p>
+        <p class="machine-score">Pontuação da Helena: <span id="machine-score">0</span></p>
+
+        <button id="reset">Resetar Pontuação</button>
+
+    </section>
+
+</body>
+
+    <script src="./scripts.js"></script>
+
+</html>
